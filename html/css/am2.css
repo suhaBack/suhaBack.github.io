@@ -1,0 +1,123 @@
+body {
+  margin: 0px;
+  background-color: rgb(61, 61, 61);
+  display: flex;
+  justify-content: center;
+}
+
+div {
+  box-sizing: border-box;
+}
+
+h1 {
+  margin: 0;
+}
+
+p {
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+img {
+  border-style: none;
+}
+
+input {
+  box-sizing: border-box;
+}
+
+textarea {
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: 'Arial', sans-serif;
+}
+
+.container {
+  width: 500px;
+  height: 600px;
+  background-color: white;
+  position: relative;
+  top: 60px;
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border: 2px solid gray;
+}
+
+.email-box p {
+  font-size: 18px;
+}
+
+.email-box input {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 5px;
+  border: 1px solid gray;
+}
+
+.name-box{
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+}
+
+.name-box p {
+  font-size: 18px;
+}
+
+.name-box input{
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 5px;
+  border: 1px solid gray;
+}
+
+.message-box p {
+  font-size: 18px;
+}
+
+.message-box textarea{
+  width: 100%;
+  margin: 10px 0;
+  border-radius: 5px;
+  resize: none;
+  padding: 10px;
+  
+}
+
+.button-box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.button-box label{
+  font-size: 15px;
+}
+
+.button-box input{
+  margin: 0;
+}
+
+.button-box button{
+  background-color: rgb(240, 180, 1);
+  color: white;
+  border: none;
+  padding: 10px 30px;
+  font-size: 18px;
+  border-radius: 5px;
+  cursor: pointer;
+  
+}
+
+.container h1 {
+  margin-bottom: 15px;
+}
